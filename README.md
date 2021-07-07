@@ -1,5 +1,5 @@
 Custom Wordpress theme built with Elementor.
-Plugins:
+Other plugins:
 - Advanced Custom Fields
 - Custom Post Type UI
 - Duplicate Page

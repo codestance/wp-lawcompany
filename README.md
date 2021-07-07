@@ -1,4 +1,4 @@
-Custom Wordpress theme built with Elementor.
+Custom Wordpress theme built with Elementor.\
 Other plugins:
 - Advanced Custom Fields
 - Custom Post Type UI

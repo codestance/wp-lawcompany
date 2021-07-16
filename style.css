@@ -1,0 +1,78 @@
+/* 
+Theme Name: Law Company
+Author: Codestance
+Description: Sample website for a law firm created with Elementor
+Version: 1.0.0
+*/
+body {margin:0; padding:0;}
+p {line-height: 1.8em;}
+
+.strong-view .testimonial-content p, .strong-view .testimonial-field {
+    font-family: 'Montserrat';
+    font-style: italic;
+    color: #141A3D;
+    text-align: center;
+}
+.strong-view .testimonial-content p{
+    font-size: 16px;
+}
+.strong-view .testimonial-content::before, .strong-view .testimonial-content::after{
+    color: #918974 !important;
+    background: #918974 !important;
+}
+/* practice areas archive */
+.practice-area--link{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    text-decoration: none;
+}
+.practice-area--link:hover{
+    background-color: seashell;
+}
+.practice-area--icon{
+    fill: var(--e-global-color-secondary);
+    color: var(--e-global-color-secondary);
+    font-size: 3em;
+}
+.practice-area--content{
+    padding-left: 1em;
+}
+.practice-area--title{
+    margin-top: 0;
+}
+.practice-area--description{
+    font-family: var(--e-global-typography-secondary-font-family);
+    color: var(--e-global-color-text);
+}
+/* single practice area page */
+.single-practice-area--section{
+    padding: 2em;
+}
+.single-practice-area--section h1{
+    font-size: 3em;
+    margin-top: 0;
+}
+.single-practice-area--content, .single-practice-area--links{
+    padding: 1em;
+}
+.single-practice-area--links a, .single-practice-area--content p{
+    font-family: var(--e-global-typography-secondary-font-family);
+    color: var(--e-global-color-text);
+}
+.single-practice-area--links a{
+    text-decoration: none;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: .5em 0;
+}
+
+/* forms */
+.fluentform{
+    font-family: 'Montserrat' !important;
+    font-size: 0.8em;
+    color: rgb(21, 25, 50);
+}
+.ff-el-form-control, .ff-btn .ff-btn-submit, textarea.ff-el-form-control {
+    font-family: 'Montserrat';
+}
